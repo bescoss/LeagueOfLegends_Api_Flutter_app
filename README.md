@@ -1,30 +1,53 @@
-# lolchampions_app
+# League of Legends Flutter App
 
-A new Flutter project.
+This Flutter app serves as a demonstration of API integration in Flutter, specifically integrating the League of Legends API to display diverse information about different champions.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+- Displays information about various League of Legends champions.
+- Utilizes the League of Legends API to fetch data dynamically.
+- Provides details such as champion stats, abilities, lore, etc.
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
 
-## Assets
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
 
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
+## Prerequisites
 
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
+Before running the app, make sure you have the following:
 
-## Localization
+- Flutter SDK installed on your machine
 
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
+## Installation
 
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter
-apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+1. Clone the repository:
+
+```
+git clone https://github.com/bescoss/LeagueOfLegends_Api_Flutter_app.git
+```
+
+2. Install dependencies:
+
+```
+flutter pub get
+```
+
+3. Run the app:
+
+```
+flutter run
+```
+
+## Usage
+
+- Upon launching the app, you will see a list of League of Legends champions.
+- Tap on a champion to view detailed information about them.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, feel free to submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
