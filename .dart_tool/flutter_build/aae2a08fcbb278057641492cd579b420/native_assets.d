@@ -1,0 +1,1 @@
+ C:\\Users\\pablo\\OneDrive\\Documentos\\S2AM\\APPs\\characters_app\\lolchampions_app\\.dart_tool\\flutter_build\\aae2a08fcbb278057641492cd579b420\\native_assets.yaml: 

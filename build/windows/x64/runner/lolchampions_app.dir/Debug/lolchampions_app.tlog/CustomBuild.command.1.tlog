@@ -1,0 +1,10 @@
+^C:\USERS\PABLO\ONEDRIVE\DOCUMENTOS\S2AM\APPS\CHARACTERS_APP\LOLCHAMPIONS_APP\WINDOWS\RUNNER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/pablo/OneDrive/Documentos/S2AM/APPs/characters_app/lolchampions_app/windows -BC:/Users/pablo/OneDrive/Documentos/S2AM/APPs/characters_app/lolchampions_app/build/windows/x64 --check-stamp-file C:/Users/pablo/OneDrive/Documentos/S2AM/APPs/characters_app/lolchampions_app/build/windows/x64/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

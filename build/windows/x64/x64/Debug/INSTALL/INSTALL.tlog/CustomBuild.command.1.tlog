@@ -1,0 +1,10 @@
+^C:\USERS\PABLO\ONEDRIVE\DOCUMENTOS\S2AM\APPS\CHARACTERS_APP\LOLCHAMPIONS_APP\BUILD\WINDOWS\X64\CMAKEFILES\EF523D2078A7AC52CF26F24DCA424697\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
